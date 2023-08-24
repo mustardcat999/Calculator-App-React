@@ -13,28 +13,28 @@ To run this calculator app locally on your machine, follow these steps:
 
 ```bash
 git clone https://github.com/mustardcat999/Calculator-App-React.git
-
+```
 
 
 2. Navigate to the project directory:
 
 ```bash
 cd calculator-app
-
+```
 3. Install the dependencies using npm or yarn:
 
 ```bash
 npm install
 # or
 yarn install
-
+```
 4. Start the development server:
 
 ```bash
 npm start
 # or
 yarn start
-
+```
 Open your web browser and visit http://localhost:3000 to use the calculator app.
 
 ##Features
@@ -44,19 +44,19 @@ Buttons for digits (0-9) and basic arithmetic operations (+, -, *, /, ^).
 AC button to clear all input.
 DEL button to delete the last digit.
 = button to evaluate the current expression.
-
+```
 ##How It Works
 ```bash
 The calculator app uses React's useReducer hook to manage the state of the calculator. The reducer function handles different actions such as adding digits, choosing operations, evaluating the expression, and more. The arithmetic operations are performed using the evaluate function.
-
+```
 ##Contributing
 ```bash
 Contributions are welcome! If you find any issues or want to add new features to the calculator app, feel free to open a pull request.
-
+```
 ##License
 ```bash
 This project is licensed under the MIT License.
-
+```
 
 
 
